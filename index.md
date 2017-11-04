@@ -4,7 +4,7 @@ layout: default
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-[Link to another page](_posts/a2017-10-27-welcome-to-jekyll.markdown).
+[Link to another page](about).
 
 There should be whitespace between paragraphs.
 
