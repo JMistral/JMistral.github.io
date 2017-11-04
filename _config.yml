@@ -16,9 +16,10 @@
 title: J.C.'s knowledge sharing site
 email: jiaming_chen@nau.edu
 description: >- # this means to ignore newlines until "baseurl:"
-Hi, I'm a master student doing research on machine learning algorithm and signal processing. I'm also enrolled in
-Udacity's Data Analyst Nanodegree Program. In this blog I will share my learning experience and also source code of my
-projects. Hope the content here can be helpful~! 🤘
+  Hi, I'm a master student doing research on machine learning algorithm and signal processing.
+  I'm also enrolled in Udacity's Data Analyst Nanodegree Program. 
+  In this blog I will share my learning experience and also source code of my
+  projects. Hope the content here can be helpful~! 🤘
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
