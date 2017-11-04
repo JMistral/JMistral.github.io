@@ -1,8 +1,5 @@
 ---
 layout: page
-title: Learning Data Analysis
-tagline: Learning
-description: Sharing
 ---
 
 ## 1.Data Analysis
