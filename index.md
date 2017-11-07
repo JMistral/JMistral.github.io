@@ -8,8 +8,9 @@ layout: default
 In this course we follow the book [_Introduction to Statistic Learning_ ](http://www-bcf.usc.edu/~gareth/ISL/). A great book for learning R and basic EDA skills as well. And most importantly, our professor Dr.Sonderegger shares **lots of** wonderful and well explained R source code on [his personal page](https://dereksonderegger.github.io/578/) 👏
 
 Here's my homework code, I share them just for fun 👻
-[Resampling(LOOCV, bootstrapping, K-fold)](HW5_STA578)
-[Lasso and Ridge Regression](HW6_STA578)
+> [Resampling(LOOCV, bootstrapping, K-fold)](HW5_STA578)
+
+> [Lasso and Ridge Regression](HW6_STA578)
 
 ## [](#header-2)Image Processing 
 
