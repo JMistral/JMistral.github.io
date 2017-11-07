@@ -14,9 +14,11 @@ Here's my homework code, I share them just for fun 👻
 
 # [](#header-2)Image Processing Using MATLAB and Python
 
-We're using the famous _Digital Image Processing (Gonzalez 4th edition)_ for this course. Some of my 
+We're using the famous _Digital Image Processing (Gonzalez 4th edition)_ for this course. Some of my homework code in MATLAB can be found in [my GitHub repo](https://github.com/JMistral/ImageProcessingEE542).
 
-> Kaggle Project
 
-### [](#header-3)Data Analyst with Udacity
-Check my GitHub repo 
+
+> Kaggle Project: Image Augmentation and Deep Learning. Some useful tutorial can be found [here](https://machinelearningmastery.com/image-augmentation-deep-learning-keras/)
+
+# [](#header-3)Data Analyst with Udacity
+Check [my GitHub repo](https://github.com/JMistral/DataAnalyst_Udacity)
