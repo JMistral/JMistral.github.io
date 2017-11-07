@@ -16,6 +16,9 @@ Here's my homework code, I share them just for fun 👻
 
 We're using the famous _Digital Image Processing (Gonzalez 4th edition)_ for this course. Some of my homework code in MATLAB can be found in [my GitHub repo](https://github.com/JMistral/ImageProcessingEE542).
 
+> Have you tried to apply Butterworth Filter's spatial domain? It's usually applied in spatial frequency domain, but I tried to use inverse FFT to find the spatial convolution kernel of Butterworth and then convolute image and the filter kernel in spatial domain. The code can be found [here](https://github.com/JMistral/ImageProcessingEE542/HW6main.m). Moving average's frequency response is also included.
+
+>  Laplacian of Gaussian (LoG), examples of different kernel size. [MATLAB code](https://github.com/JMistral/ImageProcessingEE542/HW5main.m)
 
 
 > Kaggle Project: Image Augmentation and Deep Learning. Some useful tutorial can be found [here](https://machinelearningmastery.com/image-augmentation-deep-learning-keras/)
