@@ -14,7 +14,26 @@ Here's my homework code, I share them just for fun 👻
 
 > [Lasso and Ridge Regression](HW6_STA578)
 
-# [](#header-2)Image Processing Using MATLAB and Python
+
+
+# [](#header-2)Data Analyst with Udacity
+[my GitHub repo](https://github.com/JMistral/DataAnalyst_Udacity) for this program
+
+_new update!_ I just got some cool data from this [website](http://www.gapminder.org/data/) about sugar and food consumption all over the world.
+
+It's really exciting to explore some new sweet secrets!
+
+Which country is the most rich one regarding food available per capita per day in the year 1961?
+
+**Switzerland!**, it has on average 3500 kcal food available per person in 1961, it's almost the same level as Canada in the year of 2001.
+
+[R sourcecode](sweetie)
+
+I will keep updating this project as I move on.
+
+
+
+# [](#header-3)Image Processing Using MATLAB and Python
 
 We're using the famous _Digital Image Processing (Gonzalez 4th edition)_ for this course. Some of my homework code in MATLAB can be found in [my GitHub repo](https://github.com/JMistral/ImageProcessingEE542).
 
@@ -25,5 +44,3 @@ We're using the famous _Digital Image Processing (Gonzalez 4th edition)_ for thi
 
 > Kaggle Project: Image Augmentation and Deep Learning. Some useful tutorial can be found [here](https://machinelearningmastery.com/image-augmentation-deep-learning-keras/)
 
-# [](#header-3)Data Analyst with Udacity
-Check [my GitHub repo](https://github.com/JMistral/DataAnalyst_Udacity)
