@@ -9,9 +9,9 @@ In this course we follow the book [_Introduction to Statistic Learning_ ](http:/
 
 Here's my homework code:
 
-> [Final Exam: bias-variance tradeoff, interpretability flexibility tradeoff AND model selection using cross validation]
+> [Final Exam: bias-variance tradeoff, interpretability flexibility tradeoff AND model selection using cross validation](Final)
 
-> [exam 2: feature engineering and feature selection/regularization using lasso and ridge]
+> [exam 2: feature engineering and feature selection/regularization using lasso and ridge](exam2)
 
 > [Choosing degree of freedom? (examples with KNN regression and linear regression)](HW4_JCHEN)
 
