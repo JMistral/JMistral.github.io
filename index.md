@@ -11,7 +11,7 @@ Here's my homework code:
 
 > [Final Exam: bias-variance tradeoff, interpretability flexibility tradeoff AND model selection using cross validation](Final)
 
-> [exam 2: feature engineering and feature selection/regularization using lasso and ridge](exam2)
+> [exam 2: feature engineering and feature selection/regularization using lasso and ridge](exam2.pdf)
 
 > [Choosing degree of freedom? (examples with KNN regression and linear regression)](HW4_JCHEN)
 
@@ -19,7 +19,7 @@ Here's my homework code:
 
 > [Lasso and Ridge Regression](HW6_STA578)
 
-> [Smoothing Splines(with lidar data)](HW7_STA578)
+> [Smoothing Splines(with lidar data)](HW7_STA578.pdf)
 
 
 
