@@ -4,7 +4,22 @@ layout: default
 
 Welcome to my personal website! Shoot me email _jchen1105@hotmail.com_ if you want any of my source codes shared on my site. You can also visit [my LinkedIn](https://www.linkedin.com/in/jiaming-chen-data-analyst/) page.
 
-# [](#header-1)Statistical Computing Using R
+
+# [](#header-1)Data Scientist Internship (June 2017 ~ August 2017)
+This internship with a startup company gave me experience with using AWS and Python for data wrangling, data visualization, clustering,and also **data story telling**. Here are some results
+
+1. Data Visualization:
+Given a log file of one electrical vehicle's battery usage over one month, how would you explore the driver's behavior?
+![ev_behave](/images/ev_behave.png)
+
+_Note: the color bar stands for the battery status (in %), and we can clearly see the pattern of this driver:_
+
+
+
+
+
+
+# [](#header-2)Statistical Computing Using R
 In this course we follow the book [_Introduction to Statistic Learning_ ](http://www-bcf.usc.edu/~gareth/ISL/). A great book for learning R and basic EDA skills as well. And most importantly, our professor Dr.Sonderegger shares **lots of** wonderful and well explained R source code on [his personal page](https://dereksonderegger.github.io/578/) 👏
 
 Here's my homework code:
@@ -24,7 +39,7 @@ Here's my homework code:
 
 
 
-# [](#header-2)Data Analyst with Udacity
+# [](#header-3)Data Analyst with Udacity
 [my GitHub repo](https://github.com/JMistral/DataAnalyst_Udacity) for this program
 
 _new update!_ I just got some cool data from this [website](http://www.gapminder.org/data/) about sugar and food consumption all over the world.
@@ -41,7 +56,7 @@ I will keep updating this project as I move on.
 
 
 
-# [](#header-3)Image Processing Using MATLAB and Python
+# [](#header-4)Image Processing Using MATLAB and Python
 
 We're using the famous _Digital Image Processing (Gonzalez 4th edition)_ for this course. Some of my homework code in MATLAB can be found in [my GitHub repo](https://github.com/JMistral/ImageProcessingEE542).
 
