@@ -8,11 +8,18 @@ Welcome to my personal website! Shoot me email _jchen1105@hotmail.com_ if you wa
 # [](#header-1)Data Scientist Internship (June 2017 ~ August 2017)
 This internship with a startup company gave me experience with using AWS and Python for data wrangling, data visualization, clustering,and also **data story telling**. Here are some results
 
-1. Data Visualization:
-Given a log file of one electrical vehicle's battery usage over one month, how would you explore the driver's behavior?
-![ev_behave](/images/ev_behave.png)
+1. Data Visualization(heatmap):
+Given a log file of one electrical vehicle's battery State of Charge (**SOC**) over one month, how would you explore the driver's behavior?
+![ev_behave](/images/ev_behave.png =600x200)
 
 _Note: the color bar stands for the battery status (in %), and we can clearly see the pattern of this driver:_
+ * Start his/her day at around 7 a.m.
+ * Finish his/her day at 12 p.m.
+ 
+ 
+2. Feature Engineering:
+By taking the derivative of battery usage, we generated a new categorical feature: _Status_, with three categories: _driving, parked, charging_. Using the same heatmap visualization, we grouped the status by day and time. Here is one of the results:
+![ev_status](/images/ev_status.png =600x200)
 
 
 
