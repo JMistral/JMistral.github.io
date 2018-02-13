@@ -7,9 +7,22 @@ Welcome to my personal website! Shoot me email _jchen1105@hotmail.com_ if you wa
 
 # [](#header-5)Yelp dataset challenge: NLP & sentiment analysis
 This project can be divided into 5 stages:
-* Data Preprocessing
-* Natural Language Processing
-* Clustering and PCA
+* [Data Preprocessing](https://github.com/JMistral/Yelp_Challenge/blob/master/Yelp_Dataset_-_Data_Preprocessing.html)
+* Natural Language Processing:
+* Clustering and PCA:
+Let's take a look at the most frequent words for each cluster of reviews:
+```python
+from wordcloud import WordCloud
+fig, ax = plt.subplots(kmeans.n_clusters,1, figsize=(1*10,kmeans.n_clusters*5))
+for i in range(kmeans.n_clusters):
+    wordcloud = WordCloud().generate(cluster_txt[i])
+    ax[i].imshow(wordcloud, interpolation='bilinear')
+    ax[i].axis("off")
+    ax[i].set_title('cluster#'+str(i)+" review word clouds")
+plt.savefig("word_clouds"+'_'+str(kmeans.n_clusters) + "clusters")
+```
+![]((/images/cluster3word.png))
+_Note: "Winner winner chicken dinner" the reviews in this cluster must come from some chicken lovers_
 * Restaurant Recommender
 
 
