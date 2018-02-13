@@ -7,9 +7,9 @@ Welcome to my personal website! Shoot me email _jchen1105@hotmail.com_ if you wa
 
 # [](#header-5)Yelp dataset challenge: NLP & sentiment analysis
 This project can be divided into 5 stages:
-* [Data Preprocessing](https://github.com/JMistral/Yelp_Challenge/blob/master/Yelp_Dataset_-_Data_Preprocessing.html)
-* Natural Language Processing:
-* Clustering and PCA:
+* [Data Preprocessing](https://github.com/JMistral/Yelp_Challenge/blob/master/Yelp_Dataset_-_Data_Preprocessing.ipynb)
+* [Natural Language Processing](https://github.com/JMistral/Yelp_Challenge/blob/master/Yelp_Dataset_-_NLP.ipynb):
+* [Clustering and PCA](https://github.com/JMistral/Yelp_Challenge/blob/master/Yelp_Dataset_-_Clustering_and_PCA.ipynb):
 Let's take a look at the most frequent words for each cluster of reviews:
 ```python
 from wordcloud import WordCloud
@@ -23,7 +23,7 @@ plt.savefig("word_clouds"+'_'+str(kmeans.n_clusters) + "clusters")
 ```
 ![wordcloud](/images/cluster3word.png)
 _Note: "Winner winner chicken dinner" the reviews in this cluster must come from some chicken lovers_
-* Restaurant Recommender
+* [Restaurant Recommender](https://github.com/JMistral/Yelp_Challenge/blob/master/Yelp_Dataset_-_Restaurant_Recommender.ipynb)
 
 
 
