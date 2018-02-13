@@ -5,6 +5,15 @@ layout: default
 Welcome to my personal website! Shoot me email _jchen1105@hotmail.com_ if you want any of my source codes shared on my site. You can also visit [my LinkedIn](https://www.linkedin.com/in/jiaming-chen-data-analyst/) page.
 
 
+# [](#header-5)Yelp dataset challenge: NLP & sentiment analysis
+This project can be divided into 5 stages:
+* Data Preprocessing
+* Natural Language Processing
+* Clustering and PCA
+* Restaurant Recommender
+
+
+
 # [](#header-1)Data Scientist Internship (June 2017 ~ August 2017)
 This internship with a startup company gave me experience with using AWS and Python for data wrangling, data visualization, clustering,and also **data story telling**. Here are some results
 
