@@ -21,7 +21,7 @@ for i in range(kmeans.n_clusters):
     ax[i].set_title('cluster#'+str(i)+" review word clouds")
 plt.savefig("word_clouds"+'_'+str(kmeans.n_clusters) + "clusters")
 ```
-![]((/images/cluster3word.png))
+![wordcloud](/images/cluster3word.png)
 _Note: "Winner winner chicken dinner" the reviews in this cluster must come from some chicken lovers_
 * Restaurant Recommender
 
