@@ -5,6 +5,35 @@ layout: default
 Welcome to my personal website! Shoot me email _jchen1105@hotmail.com_ if you want any of my source codes shared on my site. You can also visit [my LinkedIn](https://www.linkedin.com/in/jiaming-chen-data-analyst/) page.
 
 
+# [](#header-6)Music Player Churn Prediction & Recommendation System
+* Data set: 14.19 GB play log file (named by the date of creation)
+* Possible tools for processing: PySpark, Pandas, MLlib, sklearn etc.
+* Update: added date info to the log file, concat all log files into one file, load all_play_log into a spark session:
+```python
+def parseLine(line):
+    fields = line.split('\t')
+    if len(fields) == 10:
+        uid = int(fields[0])
+        device = str(fields[1])
+        song_id = int(fields[2])
+        song_type = int(fields[3])
+        song_name = str(fields[4])
+        singer = str(fields[5])
+        play_time = int(fields[6])
+        song_length = int(fields[7])
+        paid_flag = int(fields[8])
+        fn = str(fields[9])
+        return Row(uid, device, song_id, song_type, song_name, singer, play_time, song_length, paid_flag, fn)
+    else:
+        return Row(None)
+        
+songs = lines.map(parseLine).filter(lambda x: len(x) == len(schema))
+# Convert that to a DataFrame
+songDataset = spark.createDataFrame(songs)
+songDataset.show()
+```
+
+
 # [](#header-5)Yelp dataset challenge: NLP & sentiment analysis
 This project can be divided into 5 stages:
 * [Data Preprocessing](https://github.com/JMistral/Yelp_Challenge/blob/master/Yelp_Dataset_-_Data_Preprocessing.ipynb)
