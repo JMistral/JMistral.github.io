@@ -31,6 +31,8 @@ songs = lines.map(parseLine).filter(lambda x: len(x) == len(schema))
 
 songDataset = spark.createDataFrame(songs).cache()
 songDataset.show()
+
+songDataset.groupBy('uid').count().orderBy('count', ascending = False).show(truncate=False)
 ```
 
 
