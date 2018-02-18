@@ -9,6 +9,7 @@ Welcome to my personal website! Shoot me email _jchen1105@hotmail.com_ if you wa
 * Data set: 14.19 GB play log file (named by the date of creation)
 * Possible tools for processing: PySpark, Pandas, MLlib, sklearn etc.
 * Update: added date info to the log file, concat all log files into one file, load all_play_log into a spark session:
+
 ```python
 def parseLine(line):
     fields = line.split('\t')
