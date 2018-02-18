@@ -28,7 +28,7 @@ def parseLine(line):
         return Row(None)
         
 songs = lines.map(parseLine).filter(lambda x: len(x) == len(schema))
-# Convert that to a DataFrame
+
 songDataset = spark.createDataFrame(songs).cache()
 songDataset.show()
 ```
