@@ -11,26 +11,47 @@ Welcome to my personal website! Shoot me email _jchen1105@hotmail.com_ if you wa
 * Update: added date info to the log file, concat all log files into one file, load all_play_log into a spark session:
 
 ```python
+from pyspark.sql.types import *
+
 def parseLine(line):
     fields = line.split('\t')
     if len(fields) == 10:
-        uid = int(fields[0])
-        device = str(fields[1])
-        song_id = int(fields[2])
-        song_type = int(fields[3])
-        song_name = str(fields[4])
-        singer = str(fields[5])
-        play_time = int(fields[6])
-        song_length = int(fields[7])
-        paid_flag = int(fields[8])
-        fn = str(fields[9])
-        return Row(uid, device, song_id, song_type, song_name, singer, play_time, song_length, paid_flag, fn)
+        try:
+            uid = float(fields[0])
+            device = str(fields[1])
+            song_id = str(fields[2])
+            song_type = float(fields[3])
+            song_name = str(fields[4])
+            singer = str(fields[5])
+            play_time = str(fields[6])
+            song_length = float(fields[7])
+            paid_flag = float(fields[8])
+            fn = str(fields[9])
+            return Row(uid, device, song_id, song_type, song_name, singer, play_time, song_length, paid_flag, fn)
+        except:
+            return Row(None)
     else:
         return Row(None)
+
+
+schema = StructType([StructField('uid', FloatType(), False),
+                     StructField('device', StringType(), True),
+                     StructField('song_id', StringType(), False),
+                     StructField('song_type', FloatType(), True),
+                     StructField('song_name', StringType(), True),
+                     StructField('singer', StringType(), True),
+                     StructField('play_time', StringType(), False),
+                     StructField('song_length', FloatType(), True),
+                     StructField('paid_flag', FloatType(), True),
+                     StructField('fn', StringType(), True),])
+                     
+```
+
+```python
         
 songs = lines.map(parseLine).filter(lambda x: len(x) == len(schema))
-
-songDataset = spark.createDataFrame(songs).cache()
+# Convert that to a DataFrame
+songDataset = spark.createDataFrame(songs,schema).cache()
 songDataset.show()
 
 songDataset.groupBy('uid').count().orderBy('count', ascending = False).show(truncate=False)
